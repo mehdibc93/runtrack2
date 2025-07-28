@@ -1,18 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Parité des nombres</title>
+</head>
+<body>
+
 <?php
-$str = "LaPlateforme";
-echo $str . "<br>";
+$numbers = [200, 204, 173, 98, 171, 404, 459];
 
-$str2 = "Vive";
-$str3 = "!";
-echo $str2 . " " . $str . " " . $str3 . "<br>";
-
-$val = 6;
-echo $val . "<br>";
-$val += 4;
-echo $val . "<br>";
-
-$myBool = true;
-echo $myBool . "<br>";
-$myBool = false;
-echo $myBool . "<br>";
+foreach ($numbers as $value) {
+    if ($value % 2 == 0) {
+        echo "$value est paire<br />";
+    } else {
+        echo "$value est impaire<br />";
+    }
+}
 ?>
+
+</body>
+</html>
