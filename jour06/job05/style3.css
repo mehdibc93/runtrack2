@@ -1,0 +1,14 @@
+body {
+    background-color: lightgreen;
+    font-family: "Comic Sans MS", cursive;
+}
+
+form {
+    margin: 100px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #e8ffe8;
+    border: 2px solid green;
+    border-radius: 8px;
+    text-align: center;
+}
