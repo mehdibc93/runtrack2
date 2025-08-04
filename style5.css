@@ -1,0 +1,57 @@
+body {
+    background-color: #0f0f0f;
+    font-family: 'Orbitron', sans-serif;
+    color: #39ff14;
+    text-shadow: 0 0 3px #39ff14, 0 0 7px #39ff14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: rgba(20, 20, 20, 0.9);
+    padding: 30px;
+    border: 2px solid #39ff14;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #39ff14;
+    width: 320px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+select, button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+select {
+    background-color: #222;
+    color: #39ff14;
+    box-shadow: 0 0 5px #39ff14;
+}
+
+button {
+    background-color: #39ff14;
+    color: #0f0f0f;
+    font-weight: bold;
+    box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0f0f0f;
+    color: #39ff14;
+    box-shadow: 0 0 5px #39ff14, 0 0 25px #39ff14;
+    cursor: pointer;
+}
