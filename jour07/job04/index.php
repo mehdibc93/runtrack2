@@ -17,3 +17,4 @@ function calcule($a, $operation, $b) {
 }
 echo calcule(10, '+', 5); 
 ?>
+g

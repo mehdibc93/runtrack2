@@ -13,3 +13,4 @@ function leetSpeak($str) {
 }
 echo leetSpeak("Leet Speak est Génial"); // Exemple
 ?>
+hj
