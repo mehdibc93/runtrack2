@@ -1,11 +1,11 @@
 <?php
-$nombres = [200, 204, 173, 98, 171, 404, 459];
+$tab = [200, 204, 173, 98, 171, 404, 459];
 
-foreach ($nombres as $nombre) {
-    if ($nombre % 2 == 0) {
-        echo "$nombre est paire<br />";
+foreach ($tab as $x) {
+    if ($x % 2 == 0) {
+        echo "$x est paire<br />";
     } else {
-        echo "$nombre est impaire<br />";
+        echo "$x est impaire<br />";
     }
 }
 ?>

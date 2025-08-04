@@ -1,10 +1,13 @@
 <?php
 $str = "I'm sorry Dave I'm afraid I can't do that";
-$voyelles = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y'];
+$voyelles = "aeiouyAEIOUY";
+$result = "";
 
-for ($i = 0; isset($str[$i]); $i++) {
-    if (in_array($str[$i], $voyelles)) {
-        echo $str[$i];
+for ($i = 0; $i < strlen($str); $i++) {
+    if (strpos($voyelles, $str[$i]) !== false) {
+        $result .= $str[$i];
     }
 }
+
+echo $result;
 ?>
