@@ -4,4 +4,3 @@ function hello() {
 }
 hello();
 ?>
-gb

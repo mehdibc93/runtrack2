@@ -10,4 +10,3 @@ function occurrences($str, $char) {
 }
 echo occurrences("Bonjour", "o"); 
 ?>
-hj

@@ -4,4 +4,3 @@ function getHello() {
 }
 echo getHello(); 
 ?>
-gz

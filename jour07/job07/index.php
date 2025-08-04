@@ -67,4 +67,3 @@ if ($resultat !== "") {
     echo "<p>Résultat : $resultat</p>";
 }
 ?>
-lj

@@ -9,4 +9,3 @@ function bonjour($jour) {
 bonjour(true); // Affiche "Bonjour"
 bonjour(false); // Affiche "Bonsoir"
 ?>
-ge
